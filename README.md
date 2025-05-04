@@ -1,35 +1,59 @@
-# l-projects-customer-loan-fraud-housing
-Task 1: EDA and Visualization
+Task 1: Exploratory Data Analysis (EDA)
+Dataset: Titanic dataset (or Airbnb Listings)
 
-Dataset: Titanic or Airbnb
+Process:
 
-Tools: Pandas, Matplotlib/Seaborn
+Handled missing values, duplicates, and outliers
 
-Output: EDA notebook with charts & insights
+Visualized categorical variables using bar plots
+
+Histograms for numerical features
+
+Correlation heatmap
+
+Outcome: Key insights about survival rate and feature distributions
 
 Task 2: Text Sentiment Analysis
-
 Dataset: IMDB Reviews
 
-Techniques: Tokenization, Lemmatization, TF-IDF, Logistic Regression/Naive Bayes
+Process:
 
-Output: Script + evaluation metrics
+Preprocessed text (tokenization, stopword removal, lemmatization)
+
+Converted text into TF-IDF vectors
+
+Trained Logistic Regression and Naive Bayes models
+
+Evaluation: Precision, Recall, F1-score calculated
+
+Outcome: Model predicts sentiment with good accuracy
 
 Task 3: Fraud Detection System
+Dataset: Credit Card Fraud Detection
 
-Dataset: Credit Card Fraud
+Process:
 
-Models: Random Forest / Gradient Boosting
+Dealt with imbalanced data using undersampling
 
-Bonus: Command-line interface
+Trained Random Forest and Gradient Boosting models
 
-Output: Script + evaluation + CLI
+Built command-line test interface
+
+Outcome: Model effectively classifies fraud with high recall
 
 Task 4: House Price Prediction
+Dataset: Boston Housing Dataset
 
-Dataset: Boston Housing
+Process:
 
-Models: Linear Regression, RF, XGBoost (from scratch)
+Normalized numerical data
 
-Output: Custom implementation + comparisons + feature importance
+Implemented Linear Regression from scratch
 
+Used Random Forest & XGBoost for comparison
+
+Visualized feature importance
+
+Evaluation: Compared RMSE and R²
+
+Outcome: XGBoost performed best with lowest RMSE
